@@ -8,17 +8,18 @@ The app is designed for students, beginner developers, and anyone who wants to u
 
 ## Screenshots
 
-<img width="921" height="2048" alt="image" src="https://github.com/user-attachments/assets/285241d4-848b-4d3e-a81b-e4c1e53b56a1" />
+<p align="center">
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/285241d4-848b-4d3e-a81b-e4c1e53b56a1" />
 
 
-<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/e273387f-573b-48e6-b22c-eef43a7e89de" />
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/e273387f-573b-48e6-b22c-eef43a7e89de" />
 
 
-<img width="921" height="2048" alt="image" src="https://github.com/user-attachments/assets/c66e6094-c3b2-48f1-b6f4-62802af60d59" />
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/c66e6094-c3b2-48f1-b6f4-62802af60d59" />
 
 
-<img width="921" height="2048" alt="image" src="https://github.com/user-attachments/assets/c6ef1b69-7f49-460b-8e96-cc5778bb1d57" />
-
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/c6ef1b69-7f49-460b-8e96-cc5778bb1d57" />
+</p>
 
 ---
 
