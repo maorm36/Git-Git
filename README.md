@@ -319,130 +319,6 @@ The app updates the simulated Git state, checks the objective, and completes the
 
 ---
 
-## Installation
-
-### Requirements
-
-- Android Studio
-- Kotlin
-- Android Gradle Plugin
-- Firebase project configuration
-- Android device or emulator
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
-```
-
-### Open in Android Studio
-
-Open the project folder in Android Studio.
-
-Wait for Gradle sync to complete.
-
-### Firebase Setup
-
-The app uses Firebase for AI response reports.
-
-Add your Firebase configuration file:
-
-```text
-app/google-services.json
-```
-
-Make sure your Firebase project has Firestore enabled.
-
----
-
-## Firestore Security Rules
-
-The app uses Firestore to submit AI response reports.
-
-Recommended Firestore rules should:
-
-- allow report creation only
-- block public reads
-- block updates
-- block deletes
-- validate allowed fields
-- validate field types
-- limit text sizes
-
-Example collection:
-
-```text
-ai_response_reports/{reportId}
-```
-
-Example report fields:
-
-```text
-messageText
-reason
-reasonLabel
-userFeedback
-levelTitle
-levelObjective
-currentBranch
-commitCount
-isLevelCompleted
-appVersionName
-appVersionCode
-createdAt
-```
-
----
-
-## Build and Run
-
-### Debug Build
-
-Run the app directly from Android Studio:
-
-```text
-Run → app
-```
-
-### Release Build
-
-To create a release App Bundle:
-
-```text
-Build → Generate Signed Bundle / APK → Android App Bundle
-```
-
-Before uploading to Google Play, update:
-
-```kotlin
-versionCode = 1
-versionName = "1.0"
-```
-
-For every new upload, increase `versionCode`.
-
-Example:
-
-```kotlin
-versionCode = 2
-versionName = "1.0.1"
-```
-
----
-
-## Google Play Testing
-
-The app can be tested through Google Play Console using:
-
-- Internal testing
-- Closed testing
-- Production release, when eligible
-
-For new personal developer accounts, Google Play may require closed testing with at least 12 testers for 14 days before production access is available.
-
----
-
 ## Privacy
 
 Git-Git is designed to keep gameplay mostly local.
@@ -453,63 +329,13 @@ If the user reports an AI response, the app may send the reported message, repor
 
 The app does not require user account creation.
 
-A public privacy policy URL should be provided in Google Play Console before publishing.
-
----
-
-## Security Notes
-
-Before publishing, verify that the project does not include:
-
-- private API keys
-- service account JSON files
-- keystore files
-- keystore passwords
-- SMTP credentials
-- backend admin tokens
-- private local paths in user-facing messages
-- debug-only UI
-- stack traces shown to users
-
-Files such as `local.properties` should not be committed to Git.
-
-The Android `google-services.json` file is normally expected in Firebase Android apps, but Firestore rules and backend configuration must be properly secured.
-
----
-
-## Current Status
-
-Git-Git currently includes:
-
-- interactive Git gameplay
-- level system
-- terminal-style command input
-- command suggestions
-- hints
-- branch visualization
-- AI assistant screen
-- AI response reporting
-- Firebase integration
-- Google Play testing preparation
-
----
-
-## Planned Improvements
-
-- more worlds and levels
-- more Git commands
-- improved AI assistant behavior
-- better onboarding
-- achievements
-- more advanced branch and merge scenarios
-- improved animations and polish
+A public privacy policy URL is provided in Google Play Console.
 
 ---
 
 ## Developer Notes
 
 This app demonstrates:
-
 - Android development with Kotlin and Jetpack Compose
 - MVVM architecture
 - state-driven UI
@@ -525,26 +351,13 @@ This app demonstrates:
 
 ## License
 
-Add your license here.
-
-Example:
-
 ```text
-MIT License
-```
-
-or:
-
-```text
-All rights reserved.
+All rights reserved to the author (me).
 ```
 
 ---
 
 ## Author
-
+ 
 Developed by **Maor Mordo**.
-
-GitHub: [Add your GitHub profile link]  
-LinkedIn: [Add your LinkedIn profile link]  
-Google Play: [Add Play Store link when available]
+ 
