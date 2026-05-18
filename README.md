@@ -359,5 +359,5 @@ All rights reserved to the author (me).
 
 ## Author
  
-Developed by **Maor Mordo**.
+Developed with ❤️ by **Maor Mordo**.
  
