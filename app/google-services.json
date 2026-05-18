@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070084074854",
+    "project_id": "git-git-dd567",
+    "storage_bucket": "git-git-dd567.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070084074854:android:7a2fdab892e39436e6aca7",
+        "android_client_info": {
+          "package_name": "com.app.gitquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV2pBOHbfe5fAKy7WxEcW6WrVHvB1xweM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
