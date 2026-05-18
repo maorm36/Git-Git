@@ -1,0 +1,50 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local machine configuration
+local.properties
+/local.properties
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing keys / keystores - NEVER commit these
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Google / Firebase admin secrets - NEVER commit these
+service-account.json
+*service-account*.json
+*adminsdk*.json
+google-cloud*.json
+
+# Logs
+*.log
+
+# Release artifacts
+*.apk
+*.aab
+app/release/
+app/outputs/
+
+# Large local AI model files
+gemma_model_pack/src/main/assets/*.bin
