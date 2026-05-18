@@ -16,8 +16,9 @@ The app is designed for students, beginner developers, and anyone who wants to u
 
 
 <img width="280" alt="image" src="https://github.com/user-attachments/assets/c66e6094-c3b2-48f1-b6f4-62802af60d59" />
+</p>
 
-
+<p align="center">
 <img width="280" alt="image" src="https://github.com/user-attachments/assets/c6ef1b69-7f49-460b-8e96-cc5778bb1d57" />
 </p>
 
